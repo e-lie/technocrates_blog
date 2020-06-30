@@ -1,0 +1,34 @@
+baseURL = "http://technocrates.net/"
+title = "Technocrates, réflexions critiques à la frontière du hacking et de l'écologisme."
+author = "Elie Gavoty"
+
+theme = "paperesque"
+# copyright = "Copyright © 2008–2019"
+
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[languages]
+
+  [languages.fr]
+    title = "Technocrates"
+    weight = 1
+    [languages.fr.params]
+      varurlsite = "https://site.com/fr/whoever"
+      [languages.fr.taxonomies]
+        category = "Catégories"
+
+  [languages.en]
+    title = "My blog"
+    weight = 2
+    [languages.en.params]
+      varurlsite = "https://site.com/whoever"
+
+[params]
+description = """
+Réflexions critiques à la frontière du hacking et de l'écologisme.
+"""

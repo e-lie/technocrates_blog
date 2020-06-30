@@ -1,81 +1,64 @@
-baseURL = "http://technocrates.net/"
-title = "Technocrates, réflexions critiques à la frontière du hacking et de l'écologisme."
-author = "Elie Gavoty"
+baseURL = "http://example.com/"
+languageCode = "fr-fr"
+title = "Technocrates"
+theme = "paperesque"
+copyright = "© 2011-2020 Fabian Tamp"
 
-theme = "hugo-theme-tokiwa"
-# copyright = "Copyright © 2008–2019"
+# We're building drafts in config so that you can see them in the example on
+# Hugo Themes; you almost certainly don't want this on your production site
+buildDrafts = true
 
-languageCode = "fr"
-DefaultContentLanguage = "fr"
-# hasCJKLanguage=true
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
+[markup]
+  # This is the default from Hugo 0.60.0 onwards, but we're setting config
+  # for it below, so make it explicit
+  defaultMarkdownHandler = "goldmark"
 
+# Required to render HTML tags in the hugoExampleSite examples.
 [markup.goldmark.renderer]
-unsafe= true
+  unsafe = true
 
-[languages]
+# I can't remember if this is required for syntax highlighting or not.
+pygmentsUseClasses = true
 
-  [languages.fr]
-    title = "Technocrates"
-    weight = 1
-    [languages.fr.params]
-      varurlsite = "https://site.com/fr/whoever"
-      [languages.fr.taxonomies]
-        category = "Catégories"
+# Uncomment these lines for droplist / resource removal support! See the
+# README for more details
 
-  [languages.en]
-    title = "My blog"
-    weight = 2
-    [languages.en.params]
-      varurlsite = "https://site.com/whoever"
+# [outputs]
+# page = ["HTML", "droplist"]
 
 [params]
-description = """
-Réflexions critiques à la frontière du hacking et de l'écologisme.
-"""
-favicon = "img/favicon-32x32.png"
-math = true # for introducing $KaTEX$
-env = "production" # for Google Analytics and DISQUS.
-useChineseFonts = true
-bannerFont = "fonts/exampleFont"
+# Turn this on if you want to disable margin notes everywhere!
+# disableMarginNotes = true
 
-[menu]
-# Shown in the side menu.
-  [[menu.main]]
-    name = "Posts"
-    weight = 1
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 2
+# Customise your home page menu here:
 
-  [[menu.main]]
-    name = "Categories"
-    url = "/categories/"  
-    weight = 2
+[[params.menu]]
+  name = "Recent Posts"
+  url = "posts/"
 
-  [[menu.main]]
-    name = "About"
-    weight = 3
-    identifier = "about"
-    url = "/about/"
+[[params.menu]]
+  name = "Posts by Tag"
+  url = "tags/"
+
+[[params.menu]]
+  name = "About the contents of this example"
+  url = "about/"
+
+[[params.menu]]
+  name = "Hugo Themes default example pages"
+  url = "tags/hugobasicsite/"
+
+[[params.menu]]
+  name = "Link to theme on Github"
+  url = "https://github.com/capnfabs/paperesque"
 
 
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+# And your top-right menu links here.
 
-# [social]
-# instagram="http://example.com/"
-# bilibili="http://example.com/"
-# weibo="http://example.com/"
-# zhihu="http://example.com/"
-# twitter="http://twitter.com/"
-# gitlab="http://gitlab.com/"
-# youtube="http://youtube.com/"
-# github="http://github.com/"
-# # any icon in layouts/partials/svg can be used by the name without the "-line.svg"
+[[params.topmenu]]
+  name = "my favourite bird"
+  url = "posts/kookaburra/"
+
+[[params.topmenu]]
+  name = "rss"
+  url = "posts/index.xml"
