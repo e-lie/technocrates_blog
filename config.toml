@@ -1,0 +1,81 @@
+baseURL = "http://technocrates.net/"
+title = "Technocrates, réflexions critiques à la frontière du hacking et de l'écologisme."
+author = "Elie Gavoty"
+
+theme = "hugo-theme-tokiwa"
+# copyright = "Copyright © 2008–2019"
+
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+# hasCJKLanguage=true
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[languages]
+
+  [languages.fr]
+    title = "Technocrates"
+    weight = 1
+    [languages.fr.params]
+      varurlsite = "https://site.com/fr/whoever"
+      [languages.fr.taxonomies]
+        category = "Catégories"
+
+  [languages.en]
+    title = "My blog"
+    weight = 2
+    [languages.en.params]
+      varurlsite = "https://site.com/whoever"
+
+[params]
+description = """
+Réflexions critiques à la frontière du hacking et de l'écologisme.
+"""
+favicon = "img/favicon-32x32.png"
+math = true # for introducing $KaTEX$
+env = "production" # for Google Analytics and DISQUS.
+useChineseFonts = true
+bannerFont = "fonts/exampleFont"
+
+[menu]
+# Shown in the side menu.
+  [[menu.main]]
+    name = "Posts"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"  
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# [social]
+# instagram="http://example.com/"
+# bilibili="http://example.com/"
+# weibo="http://example.com/"
+# zhihu="http://example.com/"
+# twitter="http://twitter.com/"
+# gitlab="http://gitlab.com/"
+# youtube="http://youtube.com/"
+# github="http://github.com/"
+# # any icon in layouts/partials/svg can be used by the name without the "-line.svg"
