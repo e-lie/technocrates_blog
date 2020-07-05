@@ -32,6 +32,10 @@ pygmentsUseClasses = true
 
 # Customise your home page menu here:
 
+# [[params.menu]]
+#   name = "Réflexions critiques à la frontière du hacking et de l'écologisme : à propos de ce blog"
+#   url = "about/"
+
 [[params.menu]]
   name = "Articles récents"
   url = "posts/"
