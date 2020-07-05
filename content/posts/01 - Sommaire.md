@@ -31,13 +31,13 @@ tags = [
 ##### L’opposition hacker/cracker : constitution d’une figure déviante en informatique et dans la culture hacker.
 ##### L’ambiguïté des questions de sécurité en informatique et leurs dimensions politiques.
 
-#### Programmer, explorer, reconfigurer
+#### [Programmer, explorer, reconfigurer](../07-programmer-explorer-reconfigurer/)
 
 ### II - Le hacking à contre-courant dans un monde de boîtes noires techniques
 
-#### La boîte noire, modèle issu de la cybernétique.
+#### [La boîte noire, modèle issu de la cybernétique.](../09-la-boîte-noire-modèle-issu-de-la-cybernétique/)
 
-#### La logique de la boîte noire dans la conception technique.
+#### [La logique de la boîte noire dans la conception technique.](../10-la-logique-de-la-boîte-noire-dans-la-conception-technique/)
 
 #### L’abstraction informatique comme généralisation de la logique de la boîte noire.
 

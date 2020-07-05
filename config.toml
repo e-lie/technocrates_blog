@@ -32,12 +32,12 @@ pygmentsUseClasses = true
 
 # Customise your home page menu here:
 
-# [[params.menu]]
-#   name = "Recent Posts"
-#   url = "posts/"
+[[params.menu]]
+  name = "Articles récents"
+  url = "posts/"
 
 [[params.menu]]
-  name = "Posts by Tag"
+  name = "Articles classés par 'tag'"
   url = "tags/"
 
 # [[params.menu]]
@@ -55,9 +55,9 @@ pygmentsUseClasses = true
 
 # And your top-right menu links here.
 
-[[params.topmenu]]
-  name = "my favourite bird"
-  url = "posts/kookaburra/"
+# [[params.topmenu]]
+#   name = "my favourite bird"
+#   url = "posts/kookaburra/"
 
 [[params.topmenu]]
   name = "rss"
