@@ -1,8 +1,8 @@
 baseURL = "http://technocrates.net/"
 languageCode = "fr-fr"
-title = "Technocrates"
+title = "Technocrates.net"
 theme = "paperesque"
-copyright = "© 2011-2020 Fabian Tamp"
+copyright = "© 2020 Elie Gavoty"
 
 # We're building drafts in config so that you can see them in the example on
 # Hugo Themes; you almost certainly don't want this on your production site
@@ -32,25 +32,25 @@ pygmentsUseClasses = true
 
 # Customise your home page menu here:
 
-[[params.menu]]
-  name = "Recent Posts"
-  url = "posts/"
+# [[params.menu]]
+#   name = "Recent Posts"
+#   url = "posts/"
 
 [[params.menu]]
   name = "Posts by Tag"
   url = "tags/"
 
-[[params.menu]]
-  name = "About the contents of this example"
-  url = "about/"
+# [[params.menu]]
+#   name = "About the contents of this example"
+#   url = "about/"
 
-[[params.menu]]
-  name = "Hugo Themes default example pages"
-  url = "tags/hugobasicsite/"
+# [[params.menu]]
+#   name = "Hugo Themes default example pages"
+#   url = "tags/hugobasicsite/"
 
-[[params.menu]]
-  name = "Link to theme on Github"
-  url = "https://github.com/capnfabs/paperesque"
+# [[params.menu]]
+#   name = "Link to theme on Github"
+#   url = "https://github.com/capnfabs/paperesque"
 
 
 # And your top-right menu links here.
@@ -62,3 +62,19 @@ pygmentsUseClasses = true
 [[params.topmenu]]
   name = "rss"
   url = "posts/index.xml"
+
+# [[params.topmenu]]
+#   name = "rss"
+#   url = "posts/index.xml"
+
+# [[params.topmenu]]
+#   name = "rss"
+#   url = "posts/index.xml"
+
+# [[params.topmenu]]
+#   name = "rss"
+#   url = "posts/index.xml"
+
+# [[params.topmenu]]
+#   name = "rss"
+#   url = "posts/index.xml"
