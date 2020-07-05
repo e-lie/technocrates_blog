@@ -1,12 +1,14 @@
 +++
 author = "Elie Gavoty"
 title = 'Bibliographie'
-weight = 70
+weight = 83 
 subtitle =   'Les hackers face à l’abstraction informatique et une omniprésente disparition du technique.'
 date = "2020-07-05"
 description = "Les hackers face à l’abstraction informatique et une omniprésente disparition du technique. Mémoire de recherche en histoire et philosophie des science."
 tags = [
-	"mémoire",
+	"reprogrammer-des-boites-noires",
+  "hacking",
+  "STS/philotech",
 ]
 +++
 

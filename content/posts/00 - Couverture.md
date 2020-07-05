@@ -6,7 +6,9 @@ subtitle =   'Les hackers face à l’abstraction informatique et une omniprése
 date = "2020-07-05"
 description = "Les hackers face à l’abstraction informatique et une omniprésente disparition du technique. Mémoire de recherche en histoire et philosophie des science."
 tags = [
-	"mémoire",
+	"reprogrammer-des-boites-noires",
+  "hacking",
+  "STS/philotech",
 ]
 +++
 
@@ -22,8 +24,8 @@ Mémoire de recherche en histoire et philosophie des science soutenu en 2016.
 #### [Sommaire](../01-sommaire)
 
 {{< figure
-  src="../BN.png"
-  height=345
+  src="../../images/BN.jpg"
+  height=400
   width=400
 >}}
 
