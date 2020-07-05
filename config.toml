@@ -44,6 +44,11 @@ pygmentsUseClasses = true
   name = "Articles classés par 'tag'"
   url = "tags/"
 
+[[params.menu]]
+  name = "(Re)programmer des boîtes noires - mémoire sur les pratiques de hacking"
+  url = "tags/reprogrammer-des-boites-noires/"
+
+
 # [[params.menu]]
 #   name = "About the contents of this example"
 #   url = "about/"
