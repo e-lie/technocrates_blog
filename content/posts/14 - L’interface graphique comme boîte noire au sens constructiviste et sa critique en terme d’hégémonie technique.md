@@ -236,10 +236,10 @@ stade où il manifestait tellement de bogues qu’il apparaissait avant
 tout comme un ensemble de problèmes à résoudre et non comme un outil. Il
 devient une boîte noire dès lors que « l’ensemble des alliés désordonnés
 et non fiables que l’on discipline les uns par les autres se transforme
-\[…\] lentement en quelque chose qui ressemble à un tout organisé »
+[…] lentement en quelque chose qui ressemble à un tout organisé »
 (Latour 1989, 321). Les liens qui le font tenir ensemble sont
-suffisamment solides, contrôlables pour qu’il apparaisse comme un objet
-: l’artefact, comme le dit Andrew Feenberg peut alors devenir un « lieu
+suffisamment solides, contrôlables pour qu’il apparaisse comme un objet : l’artefact,
+comme le dit Andrew Feenberg peut alors devenir un « lieu
 systématique » (Feenberg 1999, 201) hors de son cadre d’usage, sans la
 médiation qu’il opère, sans les réseaux de dépendances qui lui
 permettent de fonctionner, un artefact n’est rien de technique. Il est
